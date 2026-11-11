@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(mine.jpg);
+    padding: 3em;
+    min-height: 150px
+}
+img{
+    width: 100px;
+    margin: 0.5em;
+    border-radius: 6px;
+    border: 2px solid #573d26;
+}
+main{
+    background-color: #383838;
+    color: white;
+}
+article{
+    margin: 1em;
+    padding: 2em;
+    display: inline-block;
+    background-color: gray;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+article:hover{
+    background-color: #55ff55;
+}
+.bienvenida{
+    margin: 30px auto;
+    max-width: 800px;
+    text-align: center;
+}
+.lista{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.info-item h3{
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.lista li:nth-child(odd){
+  color:  #573d26;
+}
+.lista li:nth-child(even){
+  color: yellow;
+}
+.tarjeta{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  border: 2px solid #573d26;
+  transition: all 0.3s ease;
+  background-color: gray;
+}
+.tarjeta:hover {
+  background-color: #55ff55;
+  border-color: lightseagreen;
+  transform: translateX(10px);
+}
+
+.img-item {
+  width: 70px;
+  height: auto;
+  margin-right: 25px;
+  object-fit: contain;
+}
+.info-item p {
+  color: white;
+  margin: 0;
+  line-height: 1.4;
+}
